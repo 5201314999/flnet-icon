@@ -1,0 +1,280 @@
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8">
+  <title>flnet Demo</title>
+  
+  <link rel="stylesheet" href="https://g.alicdn.com/thx/cube/1.3.2/cube.min.css">
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="iconfont.css">
+  <script src="iconfont.js"></script>
+  <!-- jQuery -->
+  <script src="https://a1.alicdn.com/oss/uploads/2018/12/26/7bfddb60-08e8-11e9-9b04-53e73bb6408b.js"></script>
+  <!-- 代码高亮 -->
+  <script src="https://a1.alicdn.com/oss/uploads/2018/12/26/a3f714d0-08e6-11e9-8a15-ebf944d7534c.js"></script>
+</head>
+<body>
+  <div class="main">
+    <h1 class="logo" style="height: initial;"><a href="#" title="iconfont &#x9996;&#x9875;" target="_self" style="font-size: 120px;">flnet</a></h1>
+    <div class="nav-tabs">
+      <ul id="tabs" class="dib-box">
+        <li class="dib active"><span>Unicode</span></li>
+        <li class="dib"><span>Font class</span></li>
+        <li class="dib"><span>Symbol</span></li>
+      </ul>
+      
+      
+      
+    </div>
+    <div class="tab-container">
+      <div class="content unicode" style="display: block;">
+          <ul class="icon_lists dib-box">
+          
+            <li class="dib">
+              <span class="icon iconfont">&#xE613;</span>
+                <div class="name">add</div>
+                <div class="code-name">&amp;#xe613;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon iconfont">&#xE600;</span>
+                <div class="name">app</div>
+                <div class="code-name">&amp;#xe600;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon iconfont">&#xE648;</span>
+                <div class="name">minus</div>
+                <div class="code-name">&amp;#xe648;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon iconfont">&#xE612;</span>
+                <div class="name">setup</div>
+                <div class="code-name">&amp;#xe612;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon iconfont">&#xE61A;</span>
+                <div class="name">shield</div>
+                <div class="code-name">&amp;#xe61a;</div>
+              </li>
+          
+          </ul>
+          <div class="article markdown">
+          <h2 id="unicode-">Unicode &#x5F15;&#x7528;</h2>
+          <hr>
+
+          <p>Unicode &#x662F;&#x5B57;&#x4F53;&#x5728;&#x7F51;&#x9875;&#x7AEF;&#x6700;&#x539F;&#x59CB;&#x7684;&#x5E94;&#x7528;&#x65B9;&#x5F0F;&#xFF0C;&#x7279;&#x70B9;&#x662F;&#xFF1A;</p>
+          <ul>
+            <li>&#x517C;&#x5BB9;&#x6027;&#x6700;&#x597D;&#xFF0C;&#x652F;&#x6301; IE6+&#xFF0C;&#x53CA;&#x6240;&#x6709;&#x73B0;&#x4EE3;&#x6D4F;&#x89C8;&#x5668;&#x3002;</li>
+            <li>&#x652F;&#x6301;&#x6309;&#x5B57;&#x4F53;&#x7684;&#x65B9;&#x5F0F;&#x53BB;&#x52A8;&#x6001;&#x8C03;&#x6574;&#x56FE;&#x6807;&#x5927;&#x5C0F;&#xFF0C;&#x989C;&#x8272;&#x7B49;&#x7B49;&#x3002;</li>
+            <li>&#x4F46;&#x662F;&#x56E0;&#x4E3A;&#x662F;&#x5B57;&#x4F53;&#xFF0C;&#x6240;&#x4EE5;&#x4E0D;&#x652F;&#x6301;&#x591A;&#x8272;&#x3002;&#x53EA;&#x80FD;&#x4F7F;&#x7528;&#x5E73;&#x53F0;&#x91CC;&#x5355;&#x8272;&#x7684;&#x56FE;&#x6807;&#xFF0C;&#x5C31;&#x7B97;&#x9879;&#x76EE;&#x91CC;&#x6709;&#x591A;&#x8272;&#x56FE;&#x6807;&#x4E5F;&#x4F1A;&#x81EA;&#x52A8;&#x53BB;&#x8272;&#x3002;</li>
+          </ul>
+          <blockquote>
+            <p>&#x6CE8;&#x610F;&#xFF1A;&#x65B0;&#x7248; iconfont &#x652F;&#x6301;&#x591A;&#x8272;&#x56FE;&#x6807;&#xFF0C;&#x8FD9;&#x4E9B;&#x591A;&#x8272;&#x56FE;&#x6807;&#x5728; Unicode &#x6A21;&#x5F0F;&#x4E0B;&#x5C06;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x9700;&#x6C42;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;symbol &#x7684;&#x5F15;&#x7528;&#x65B9;&#x5F0F;</p>
+          </blockquote>
+          <p>Unicode &#x4F7F;&#x7528;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#xFF1A;</p>
+          <h3 id="-font-face">&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x62F7;&#x8D1D;&#x9879;&#x76EE;&#x4E0B;&#x9762;&#x751F;&#x6210;&#x7684; <code>@font-face</code></h3>
+<pre><code class="language-css">@font-face {
+  font-family: &apos;iconfont&apos;;
+  src: url(&apos;iconfont.eot&apos;);
+  src: url(&apos;iconfont.eot?#iefix&apos;) format(&apos;embedded-opentype&apos;),
+      url(&apos;iconfont.woff2&apos;) format(&apos;woff2&apos;),
+      url(&apos;iconfont.woff&apos;) format(&apos;woff&apos;),
+      url(&apos;iconfont.ttf&apos;) format(&apos;truetype&apos;),
+      url(&apos;iconfont.svg#iconfont&apos;) format(&apos;svg&apos;);
+}
+</code></pre>
+          <h3 id="-iconfont-">&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x5B9A;&#x4E49;&#x4F7F;&#x7528; iconfont &#x7684;&#x6837;&#x5F0F;</h3>
+<pre><code class="language-css">.iconfont {
+  font-family: &quot;iconfont&quot; !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+</code></pre>
+          <h3 id="-">&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;&#x6311;&#x9009;&#x76F8;&#x5E94;&#x56FE;&#x6807;&#x5E76;&#x83B7;&#x53D6;&#x5B57;&#x4F53;&#x7F16;&#x7801;&#xFF0C;&#x5E94;&#x7528;&#x4E8E;&#x9875;&#x9762;</h3>
+<pre><code class="language-html">&lt;span class=&quot;iconfont&quot;&gt;&amp;#x33;&lt;/span&gt;
+</code></pre>
+          <blockquote>
+            <p>&quot;iconfont&quot; &#x662F;&#x4F60;&#x9879;&#x76EE;&#x4E0B;&#x7684; font-family&#x3002;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7F16;&#x8F91;&#x9879;&#x76EE;&#x67E5;&#x770B;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F; &quot;iconfont&quot;&#x3002;</p>
+          </blockquote>
+          </div>
+      </div>
+      <div class="content font-class">
+        <ul class="icon_lists dib-box">
+          
+          <li class="dib">
+            <span class="icon iconfont iconfont-add"></span>
+            <div class="name">
+              add
+            </div>
+            <div class="code-name">.iconfont-add
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon iconfont iconfont-app"></span>
+            <div class="name">
+              app
+            </div>
+            <div class="code-name">.iconfont-app
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon iconfont iconfont-minus"></span>
+            <div class="name">
+              minus
+            </div>
+            <div class="code-name">.iconfont-minus
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon iconfont iconfont-setup"></span>
+            <div class="name">
+              setup
+            </div>
+            <div class="code-name">.iconfont-setup
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon iconfont iconfont-shield"></span>
+            <div class="name">
+              shield
+            </div>
+            <div class="code-name">.iconfont-shield
+            </div>
+          </li>
+          
+        </ul>
+        <div class="article markdown">
+        <h2 id="font-class-">font-class &#x5F15;&#x7528;</h2>
+        <hr>
+
+        <p>font-class &#x662F; Unicode &#x4F7F;&#x7528;&#x65B9;&#x5F0F;&#x7684;&#x4E00;&#x79CD;&#x53D8;&#x79CD;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x89E3;&#x51B3; Unicode &#x4E66;&#x5199;&#x4E0D;&#x76F4;&#x89C2;&#xFF0C;&#x8BED;&#x610F;&#x4E0D;&#x660E;&#x786E;&#x7684;&#x95EE;&#x9898;&#x3002;</p>
+        <p>&#x4E0E; Unicode &#x4F7F;&#x7528;&#x65B9;&#x5F0F;&#x76F8;&#x6BD4;&#xFF0C;&#x5177;&#x6709;&#x5982;&#x4E0B;&#x7279;&#x70B9;&#xFF1A;</p>
+        <ul>
+          <li>&#x517C;&#x5BB9;&#x6027;&#x826F;&#x597D;&#xFF0C;&#x652F;&#x6301; IE8+&#xFF0C;&#x53CA;&#x6240;&#x6709;&#x73B0;&#x4EE3;&#x6D4F;&#x89C8;&#x5668;&#x3002;</li>
+          <li>&#x76F8;&#x6BD4;&#x4E8E; Unicode &#x8BED;&#x610F;&#x660E;&#x786E;&#xFF0C;&#x4E66;&#x5199;&#x66F4;&#x76F4;&#x89C2;&#x3002;&#x53EF;&#x4EE5;&#x5F88;&#x5BB9;&#x6613;&#x5206;&#x8FA8;&#x8FD9;&#x4E2A; icon &#x662F;&#x4EC0;&#x4E48;&#x3002;</li>
+          <li>&#x56E0;&#x4E3A;&#x4F7F;&#x7528; class &#x6765;&#x5B9A;&#x4E49;&#x56FE;&#x6807;&#xFF0C;&#x6240;&#x4EE5;&#x5F53;&#x8981;&#x66FF;&#x6362;&#x56FE;&#x6807;&#x65F6;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x4FEE;&#x6539; class &#x91CC;&#x9762;&#x7684; Unicode &#x5F15;&#x7528;&#x3002;</li>
+          <li>&#x4E0D;&#x8FC7;&#x56E0;&#x4E3A;&#x672C;&#x8D28;&#x4E0A;&#x8FD8;&#x662F;&#x4F7F;&#x7528;&#x7684;&#x5B57;&#x4F53;&#xFF0C;&#x6240;&#x4EE5;&#x591A;&#x8272;&#x56FE;&#x6807;&#x8FD8;&#x662F;&#x4E0D;&#x652F;&#x6301;&#x7684;&#x3002;</li>
+        </ul>
+        <p>&#x4F7F;&#x7528;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#xFF1A;</p>
+        <h3 id="-fontclass-">&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x5F15;&#x5165;&#x9879;&#x76EE;&#x4E0B;&#x9762;&#x751F;&#x6210;&#x7684; fontclass &#x4EE3;&#x7801;&#xFF1A;</h3>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;./iconfont.css&quot;&gt;
+</code></pre>
+        <h3 id="-">&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x6311;&#x9009;&#x76F8;&#x5E94;&#x56FE;&#x6807;&#x5E76;&#x83B7;&#x53D6;&#x7C7B;&#x540D;&#xFF0C;&#x5E94;&#x7528;&#x4E8E;&#x9875;&#x9762;&#xFF1A;</h3>
+<pre><code class="language-html">&lt;span class=&quot;iconfont iconxxx&quot;&gt;&lt;/span&gt;
+</code></pre>
+        <blockquote>
+          <p>&quot;
+            iconfont&quot; &#x662F;&#x4F60;&#x9879;&#x76EE;&#x4E0B;&#x7684; font-family&#x3002;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7F16;&#x8F91;&#x9879;&#x76EE;&#x67E5;&#x770B;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F; &quot;iconfont&quot;&#x3002;</p>
+        </blockquote>
+      </div>
+      </div>
+      <div class="content symbol">
+          <ul class="icon_lists dib-box">
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use href="#iconfont-add"/>
+                </svg>
+                <div class="name">add</div>
+                <div class="code-name">#iconfont-add</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use href="#iconfont-app"/>
+                </svg>
+                <div class="name">app</div>
+                <div class="code-name">#iconfont-app</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use href="#iconfont-minus"/>
+                </svg>
+                <div class="name">minus</div>
+                <div class="code-name">#iconfont-minus</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use href="#iconfont-setup"/>
+                </svg>
+                <div class="name">setup</div>
+                <div class="code-name">#iconfont-setup</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use href="#iconfont-shield"/>
+                </svg>
+                <div class="name">shield</div>
+                <div class="code-name">#iconfont-shield</div>
+            </li>
+          
+          </ul>
+          <div class="article markdown">
+          <h2 id="symbol-">Symbol &#x5F15;&#x7528;</h2>
+          <hr>
+
+          <p>&#x8FD9;&#x662F;&#x4E00;&#x79CD;&#x5168;&#x65B0;&#x7684;&#x4F7F;&#x7528;&#x65B9;&#x5F0F;&#xFF0C;&#x5E94;&#x8BE5;&#x8BF4;&#x8FD9;&#x624D;&#x662F;&#x672A;&#x6765;&#x7684;&#x4E3B;&#x6D41;&#xFF0C;&#x4E5F;&#x662F;&#x5E73;&#x53F0;&#x76EE;&#x524D;&#x63A8;&#x8350;&#x7684;&#x7528;&#x6CD5;&#x3002;&#x76F8;&#x5173;&#x4ECB;&#x7ECD;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x8FD9;&#x7BC7;<a href>&#x6587;&#x7AE0;</a>
+            &#x8FD9;&#x79CD;&#x7528;&#x6CD5;&#x5176;&#x5B9E;&#x662F;&#x505A;&#x4E86;&#x4E00;&#x4E2A; SVG &#x7684;&#x96C6;&#x5408;&#xFF0C;&#x4E0E;&#x53E6;&#x5916;&#x4E24;&#x79CD;&#x76F8;&#x6BD4;&#x5177;&#x6709;&#x5982;&#x4E0B;&#x7279;&#x70B9;&#xFF1A;</p>
+          <ul>
+            <li>&#x652F;&#x6301;&#x591A;&#x8272;&#x56FE;&#x6807;&#x4E86;&#xFF0C;&#x4E0D;&#x518D;&#x53D7;&#x5355;&#x8272;&#x9650;&#x5236;&#x3002;</li>
+            <li>&#x901A;&#x8FC7;&#x4E00;&#x4E9B;&#x6280;&#x5DE7;&#xFF0C;&#x652F;&#x6301;&#x50CF;&#x5B57;&#x4F53;&#x90A3;&#x6837;&#xFF0C;&#x901A;&#x8FC7; <code>font-size</code>, <code>color</code> &#x6765;&#x8C03;&#x6574;&#x6837;&#x5F0F;&#x3002;</li>
+            <li>&#x517C;&#x5BB9;&#x6027;&#x8F83;&#x5DEE;&#xFF0C;&#x652F;&#x6301; IE9+&#xFF0C;&#x53CA;&#x73B0;&#x4EE3;&#x6D4F;&#x89C8;&#x5668;&#x3002;</li>
+            <li>&#x6D4F;&#x89C8;&#x5668;&#x6E32;&#x67D3; SVG &#x7684;&#x6027;&#x80FD;&#x4E00;&#x822C;&#xFF0C;&#x8FD8;&#x4E0D;&#x5982; png&#x3002;</li>
+          </ul>
+          <p>&#x4F7F;&#x7528;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#xFF1A;</p>
+          <h3 id="-symbol-">&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x5F15;&#x5165;&#x9879;&#x76EE;&#x4E0B;&#x9762;&#x751F;&#x6210;&#x7684; symbol &#x4EE3;&#x7801;&#xFF1A;</h3>
+<pre><code class="language-html">&lt;script src=&quot;./iconfont.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+          <h3 id="-css-">&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x52A0;&#x5165;&#x901A;&#x7528; CSS &#x4EE3;&#x7801;&#xFF08;&#x5F15;&#x5165;&#x4E00;&#x6B21;&#x5C31;&#x884C;&#xFF09;&#xFF1A;</h3>
+<pre><code class="language-html">&lt;style&gt;
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+&lt;/style&gt;
+</code></pre>
+          <h3 id="-">&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;&#x6311;&#x9009;&#x76F8;&#x5E94;&#x56FE;&#x6807;&#x5E76;&#x83B7;&#x53D6;&#x7C7B;&#x540D;&#xFF0C;&#x5E94;&#x7528;&#x4E8E;&#x9875;&#x9762;&#xFF1A;</h3>
+<pre><code class="language-html">&lt;svg class=&quot;icon&quot; aria-hidden=&quot;true&quot;&gt;
+  &lt;use xlink:href=&quot;#icon-xxx&quot;&gt;&lt;/use&gt;
+&lt;/svg&gt;
+</code></pre>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <script>
+  $(document).ready(function () {
+      $('.tab-container .content:first').show()
+
+      $('#tabs li').click(function (e) {
+        var tabContent = $('.tab-container .content')
+        var index = $(this).index()
+
+        if ($(this).hasClass('active')) {
+          return
+        } else {
+          $('#tabs li').removeClass('active')
+          $(this).addClass('active')
+
+          tabContent.hide().eq(index).fadeIn()
+        }
+      })
+    })
+  </script>
+
+
+</body></html>
