@@ -11,3 +11,9 @@
 |
 |--dist 最终用于项目的文件
 ```
+
+# build
+yarn build /npm run build
+
+# deploy
+deploy.sh
