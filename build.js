@@ -1,7 +1,7 @@
 const cheerio = require("cheerio");
 const fs = require("fs");
 const path = require("path");
-const ICONNAME = "flnet-icon";
+const ICONNAME = "flicon";
 
 // const cheerio_html = cheerio.prototype.html
 // //不进行中文的实体编码
