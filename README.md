@@ -1,3 +1,8 @@
+
+# 备注：
+
+**已废弃**，生成自己的字体图标库可使用 https://www.autotracer.org/zh.html 以及iconmoon https://icomoon.io/app/#/select 
+
 # flnet-icon
 
 从iconfont 上收集一套风格统一的用于简单后台业务图标
